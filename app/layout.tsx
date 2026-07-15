@@ -31,20 +31,28 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   metadataBase: new URL('https://zetta-ai.org'),
   openGraph: {
-    title: 'ZETTA-AI — Contrata tu Primer AI Employee',
-    description:
-      'AI Employees autónomos que responden clientes, califican leads y agendan reuniones 24/7.',
-    url: 'https://zetta-ai.org',
-    siteName: 'ZETTA-AI',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'ZETTA-AI — Contrata tu Primer AI Employee',
-    description:
-      'AI Employees autónomos que responden clientes, califican leads y agendan reuniones 24/7.',
-  },
-}
+      title: 'ZETTA-AI — Contrata tu Primer AI Employee',
+      description:
+        'AI Employees autónomos que responden clientes, califican leads y agendan reuniones 24/7.',
+      url: 'https://zetta-ai.org',
+      images: [
+        {
+          url: 'https://zetta-ai.org/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'ZETTA-AI',
+        },
+      ],
+      siteName: 'ZETTA-AI',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'ZETTA-AI — Contrata tu Primer AI Employee',
+      description:
+        'AI Employees autónomos que responden clientes, califican leads y agendan reuniones 24/7.',
+      images: ['https://zetta-ai.org/og-image.png'],
+    },
 
 export const viewport: Viewport = {
   colorScheme: 'dark',
